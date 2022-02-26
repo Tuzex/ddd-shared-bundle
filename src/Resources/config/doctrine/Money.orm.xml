@@ -3,7 +3,7 @@
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                           http://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
-    <embeddable name="Tuzex\Ddd\Shared\Money">
+    <embeddable name="Tuzex\Ddd\Shared\Domain\Money">
         <field name="amountInMainUnit" type="float" column="amount" />
         <field name="currency" type="currency" column="currency"/>
     </embeddable>
