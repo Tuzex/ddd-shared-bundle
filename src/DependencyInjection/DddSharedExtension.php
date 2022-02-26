@@ -21,9 +21,9 @@ final class DddSharedExtension extends Extension implements PrependExtensionInte
             ],
             'orm' => [
                 'mappings' => [
-                    'Tuzex\Bundle\Ddd\Shared' => [
+                    'DddSharedBundle' => [
                         'type' => 'xml',
-                        'prefix' => '',
+                        'prefix' => 'Tuzex\Ddd\Shared\Domain',
                     ],
                 ],
             ],
